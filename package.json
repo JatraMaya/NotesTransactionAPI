@@ -1,0 +1,21 @@
+{
+  "name": "notestransactionapi",
+  "version": "0.1.0",
+  "description": "Simple api to track transactions",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon --ignore db.json server.js"
+  },
+  "author": "ahmad f. iksan",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "hyperid": "^2.0.5",
+    "lowdb": "^1.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
